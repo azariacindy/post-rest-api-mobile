@@ -38,7 +38,7 @@ class RestClient {
       if (limit != null && limit > 0) return list.take(limit).toList();
       return list;
     }
-    _throwForStatus('Failed to fetch posts', resp.statusCode, resp.body);
+    _throwForStatus('Failed COBA etch posts', resp.statusCode, resp.body);
   }
 
   Future<Post> fetchPost(int id) async {
